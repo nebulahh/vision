@@ -3,7 +3,7 @@ services:
     name: trading-bot
     env: node
     buildCommand: npm install
-    startCommand: node server.js
+    startCommand: node index.js
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         sync: false
